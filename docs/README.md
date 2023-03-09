@@ -12,10 +12,9 @@ actions:
     type: secondary
 features:
   - title: Markdown
-    details: 以 Markdown 为记录方式的个人学习笔记，快速标注各种文本和规范代码块。
+    details: 以 Markdown 语法为记录方式的个人学习笔记，快速标注文本和展示代码块。
   - title: VuePress
     details: 借助 VuePress 实现 Markdown文件 转 HTML 。搭建自己的个人博客网站。
   - title: Github Pages
     details: 将 VuePress 构建的静态网站放入 Github Pages 托管，实现线上访问查阅。
-footer: MIT Licensed | Copyright © 2023 zzlm0107@163.com
 ---

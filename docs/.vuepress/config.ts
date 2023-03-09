@@ -26,12 +26,44 @@ export default defineUserConfig({
             link: '/study-notes/html与css笔记.md',
           },
           {
+            text: 'Less/Sass笔记',
+            link: '/study-notes/less与sass笔记.md',
+          },
+          {
+            text: 'Bootstrap5笔记',
+            link: '/study-notes/bootstrap5笔记.md',
+          },
+          {
             text: 'JS常用方法',
             link: '/study-notes/js常用方法.md',
           },
           {
+            text: 'Ajax笔记',
+            link: '/study-notes/ajax笔记.md',
+          },
+          {
+            text: 'Axios笔记',
+            link: '/study-notes/axios笔记.md',
+          },
+          {
             text: 'NodeJS笔记',
             link: '/study-notes/nodeJS笔记.md',
+          },
+          {
+            text: 'Vue2笔记',
+            link: '/study-notes/vue2笔记.md',
+          },
+          {
+            text: 'Vue3笔记',
+            link: '/study-notes/vue3笔记.md',
+          },
+          {
+            text: 'Webpack笔记',
+            link: '/study-notes/webpack笔记.md',
+          },
+          {
+            text: 'Vite笔记',
+            link: '/study-notes/vite笔记.md',
           }
         ],
       },
