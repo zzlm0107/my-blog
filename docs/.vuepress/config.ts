@@ -14,13 +14,26 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/images/logo.jfif',
     logoDark: null,
-    repo: 'https://github.com/zzlm0107/my-blog', // 导航栏显示的仓库地址
+    repo: 'https://github.com/zzlm0107/notes', // 导航栏显示的仓库地址
     editLink: false,
     navbar: [
       // NavbarItem
       {
         text: '学习笔记',
-        link: '/study-notes/',
+        children: [
+          {
+            text: 'HTML/CSS笔记',
+            link: '/study-notes/html与css笔记.md',
+          },
+          {
+            text: 'JS常用方法',
+            link: '/study-notes/js常用方法.md',
+          },
+          {
+            text: 'NodeJS笔记',
+            link: '/study-notes/nodeJS笔记.md',
+          }
+        ],
       },
       // NavbarGroup
       {
@@ -28,8 +41,8 @@ export default defineUserConfig({
         link: '/project-notes/',
       }
     ],
-    sidebar: false,
-    lastUpdated: true, // 开启显示最近更新
-    lastUpdatedText: '上次更新'
+    lastUpdatedText: '上次更新', // 显示最近更新时的前缀
+    contributorsText: '贡献者', // 显示贡献者时的前缀
+    toggleColorMode: '换个风格' // 切换风格模式的hover提示
   }),
 })
