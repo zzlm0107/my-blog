@@ -113,8 +113,8 @@ axios.interceptors.response.use(function (response) {
 
 ```js
  axios.all([
-    axios.get('http://localhost:5050/test'),
-    axios.get('http:'),
+    axios.get('http://localhost:5050/test1'),
+    axios.get('http://localhost:5050/test2'),
     axios.get('http://localhost:5050/test3')
 ]).then(
     response => { console.log('请求成功了', response.data), },

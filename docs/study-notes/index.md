@@ -6,9 +6,13 @@ sidebar: false
 
 
 
-[HTML5/CSS3笔记](./html与css笔记.md)
+[HTML笔记](./html笔记.md)
 
-[Less/Sass笔记](./less与sass笔记.md)
+[CSS笔记](./css笔记.md)
+
+[Less笔记](./less笔记.md)
+
+[Sass笔记](./sass笔记.md)
 
 [Bootstrap笔记](./bootstrap5笔记.md)
 

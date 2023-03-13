@@ -22,12 +22,20 @@ export default defineUserConfig({
         text: '学习笔记',
         children: [
           {
-            text: 'HTML/CSS笔记',
-            link: '/study-notes/html与css笔记.md',
+            text: 'HTML笔记',
+            link: '/study-notes/html笔记.md',
           },
           {
-            text: 'Less/Sass笔记',
-            link: '/study-notes/less与sass笔记.md',
+            text: 'CSS笔记',
+            link: '/study-notes/css笔记.md',
+          },
+          {
+            text: 'Less笔记',
+            link: '/study-notes/less笔记.md',
+          },
+          {
+            text: 'Sass笔记',
+            link: '/study-notes/Sass笔记.md',
           },
           {
             text: 'Bootstrap5笔记',
@@ -70,7 +78,28 @@ export default defineUserConfig({
       // NavbarGroup
       {
         text: '项目笔记',
-        link: '/project-notes/',
+        children: [
+          {
+            text: 'vue项目文件命名规范',
+            link: '/project-notes/vue项目文件命名规范.md',
+          },
+          {
+            text: 'vue2项目简单启动',
+            link: '/project-notes/vue2项目简单启动.md',
+          },
+          {
+            text: '小兔鲜学习收获',
+            link: '/project-notes/小兔鲜学习收获.md',
+          },
+          {
+            text: '云平台搭建收获',
+            link: '/project-notes/云平台搭建收获.md',
+          },
+          {
+            text: '云平台重构收获',
+            link: '/project-notes/云平台重构收获.md',
+          },
+        ]
       }
     ],
     lastUpdatedText: '上次更新', // 显示最近更新时的前缀
