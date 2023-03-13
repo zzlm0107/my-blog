@@ -1,0 +1,1 @@
+import{_ as t,p as a,q as c,R as e,t as r}from"./framework-5866ffd3.js";const s={},_=e("h2",{id:"vue2的笔记弄丢了",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#vue2的笔记弄丢了","aria-hidden":"true"},"#"),r(" vue2的笔记弄丢了~")],-1),o=[_];function n(d,i){return a(),c("div",null,o)}const h=t(s,[["render",n],["__file","vue2笔记.html.vue"]]);export{h as default};
